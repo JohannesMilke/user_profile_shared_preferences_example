@@ -1,0 +1,30 @@
+name: user_profile_shared_preferences_example
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  # switch animation between light and dark theme
+  animated_theme_switcher: ^2.0.1-nullsafety.0
+
+  # persist locally data
+  shared_preferences: ^2.0.5
+
+  # pick image
+  image_picker: ^0.7.4
+
+  # store image
+  path_provider: ^2.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
